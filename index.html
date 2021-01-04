@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Web Design Challenge</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="nav-link" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="WebVisualizations/comparison1.html">Vis1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="WebVisualizations/datahtml.html">Vis2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="WebVisualizations/datahtml.html">Vis3</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="WebVisualizations/datahtml.html">Vis4</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="WebVisualizations/datahtml.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="WebVisualizations/datahtml.html">Data</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Pages
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="index.html">Home</a>
+            <a class="dropdown-item" href="WebVisualizations/temperature.html">vis1</a>
+            <a class="dropdown-item" href="WebVisualizations/humidity.html">vis2</a>
+            <a class="dropdown-item" href="WebVisualizations/cloudiness.html">vis3</a>
+            <a class="dropdown-item" href="WebVisualizations/windspeed.html">vis4</a>
+            <a class ="dropdown-item" href=""> Comparison</a>
+            <a class ="dropdown-item" href="cities.csv"> Data</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="col-lg-12">
+        <h1> Home Page</h1>
+        <hr>
+        <img src="WebVisualizations/assets/images/Fig1.png" width="450" align="left">
+        <p>The data presented here aims to analyze patterns is weather as location nears the equator. The cities that comprise the dataset
+          were randomly assembled via OpenWeatherMap API.</p>
+        <p>Latitudes were compared to a number of parameters: Maximum Temperatures, Cloudiness, Humidity, and Wind Speed. Data presented within
+          this site include analysis, plot images and the source data for the cities analyzed.</p>
+        </div>
+      </div>
+      <!-- Source https://www.youtube.com/watch?v=P10M8-pr-yk&ab_channel=kudvenkat -->
+      <div class="col-lg-4">
+        <div class="col-lg-12">
+          <h3>Visualizations</h3>
+          <hr>
+          <div class="row">
+            <div class="col-lg-8 col-sm-3">
+            <!-- Source in comment for img-fluid: https://www.youtube.com/watch?v=x99gNzHtm0k&ab_channel=QuentinWattTutorials -->
+            <a href="WebVisualizations/temperature.html"><img src="WebVisualizations/assets/images/Fig1.png" class="img-fluid" >
+            </a>
+            </div>
+            <div class="col-lg-8 col-sm-3">
+            <a href="WebVisualizations/humidity.html"><img src="WebVisualizations/assets/images/Fig2.png" class="img-fluid">
+            </a>
+            </div>  
+            <div class="col-lg-8 col-sm-3">
+            <a href="WebVisualizations/cloudiness.html"><img src="WebVisualizations/assets/images/Fig3.png" class="img-fluid" >
+            </a>
+            </div> 
+            <div class="col-lg-8 col-sm-3">
+            <a href="WebVisualizations/windspeed.html"><img src="WebVisualizations/assets/images/Fig4.png" class="img-fluid">
+            </a>
+            </div> 
+          </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
