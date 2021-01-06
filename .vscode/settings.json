@@ -1,3 +1,5 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "python.pythonPath": "/Users/katherinedudzinsky/opt/anaconda3/envs/Boot-Camp/bin/python",
+    "jupyter.jupyterServerType": "local"
 }
